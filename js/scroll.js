@@ -3,6 +3,8 @@
  */
 
 $(document).ready(function () {
+    $('#AboutUs').hide();
+    $('#AboutUsSmall').hide();
     $('.navbar-fixed-top').hide();
     $('#trigger').waypoint(function () {
         $('.navbar-fixed-top').fadeIn('fast');
