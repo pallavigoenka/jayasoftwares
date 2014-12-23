@@ -27,19 +27,6 @@ section {
     border-color: rgba(255, 255, 255, 0.05);
     color: white;
 }
-#AboutUs .nav-tabs .active{
-    background-color: black;
-    color: #ffffff;
-}
-#AboutUs li a{
-    color: darkgray;
-}
-#AboutUs li a:hover{
-    text-decoration: none;
-}
-#AboutUs li a:active{
-    color: #000000;
-}
 .img-30{
     width: 30%;
 }
@@ -64,4 +51,28 @@ section {
 .centre{
     margin-left: auto;
     margin-right: auto;
+}
+.background{
+    background-color: rgba(255,255,255,0.05);
+}
+.logo{
+    margin-top: 2%;
+}
+.navigator{
+    margin-top: 1%;
+}
+#address_height{
+    height: 100%;
+}
+#first{
+    padding: 2%;
+    height: 100%;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+#pad{
+    padding-top: 10px;
+}
+#pad address{
+    padding: 20px;
 }
