@@ -76,6 +76,39 @@ section {
 .para_profile{
     padding: 3%;
 }
+.padding_1{
+    padding: 1%;
+}
+.padding_5_top{
+    padding-top: 5%;
+}
+.padding_10_top{
+    padding-top: 10%;
+}
+.padding_6_top{
+    padding-top: 6%;
+}
+.padding_2_top{
+    padding-top: 2%;
+}
+.padding_4_top{
+    padding-top: 4%;
+}
+.main_div{
+    padding: 5%;
+    min-height: 473px;
+    color: darkgray;
+}
+.para_main{
+    padding: 2%;
+    margin: 2%;
+    font-size: 16px;
+}
+.para_img{
+    font-size: 14px;
+    text-align: center;
+    padding: 1%;
+}
 #line_height{
     line-height: 1.16em;
 }
@@ -93,4 +126,7 @@ section {
 }
 #pad address{
     padding: 20px;
+}
+#growth{
+    padding: 2% 2% 0 2%;
 }
