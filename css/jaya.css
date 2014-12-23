@@ -17,6 +17,9 @@ section {
 #gotop {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.05);
+    bottom: 0;
+    right: 0;
+    position: fixed;
 }
 .form-format
 {
@@ -58,8 +61,23 @@ section {
 .logo{
     margin-top: 2%;
 }
+.blue{
+    color: rgb(36, 129, 154);
+}
+.pink{
+    color: rgb(255,160,156);
+}
+.green{
+    color: rgb(92,255,198);
+}
 .navigator{
     margin-top: 1%;
+}
+.para_profile{
+    padding: 3%;
+}
+#line_height{
+    line-height: 1.16em;
 }
 #address_height{
     height: 100%;
