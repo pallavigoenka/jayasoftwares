@@ -13,6 +13,13 @@ section {
     min-height: 100%;
 }
 
+#top div div div a {
+    text-decoration: none;
+}
+
+#top div div div a:hover {
+    text-decoration: none;
+}
 #gotop {
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.05);
@@ -95,12 +102,16 @@ section {
 }
 .main_div{
     padding: 5%;
-    min-height: 473px;
+    min-height: 413px;
     color: darkgray;
 }
 .para_main{
     padding: 2%;
     margin: 2%;
+    font-size: 16px;
+}
+
+.para_16 {
     font-size: 16px;
 }
 .para_img{
