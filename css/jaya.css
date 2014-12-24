@@ -13,6 +13,9 @@ section {
     min-height: 100%;
 }
 
+#top {
+    min-height: 100%;
+}
 #top div div div a {
     text-decoration: none;
 }
@@ -65,7 +68,7 @@ section {
     background-color: rgba(255,255,255,0.05);
 }
 .logo{
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .blue{
     color: rgb(36, 129, 154);
@@ -104,6 +107,12 @@ section {
     padding: 5%;
     min-height: 413px;
     color: darkgray;
+}
+
+.success_div {
+    padding: 5%;
+    color: darkgray;
+    min-height: 406px;
 }
 .para_main{
     padding: 2%;
