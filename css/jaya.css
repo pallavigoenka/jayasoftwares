@@ -88,6 +88,10 @@ section {
 .padding_1{
     padding: 1%;
 }
+.padding_2_rightleft{
+    padding-left:2%;
+    padding-right:2%;
+}
 .padding_5_top{
     padding-top: 5%;
 }
