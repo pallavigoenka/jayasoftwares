@@ -101,6 +101,9 @@ section {
     padding-right:2%;
 }
 
+#resume {
+    display: inline;
+}
 .margin_1_top {
     margin-top: 1%;
 }
@@ -118,6 +121,10 @@ section {
 }
 .padding_4_top{
     padding-top: 4%;
+}
+
+.padding_4 {
+    padding: 4%;
 }
 .main_div{
     padding: 5%;
