@@ -11,7 +11,7 @@ $(document).ready(function () {
         $('#gotop').fadeIn('slow');
     });
     $('#gotop').hide();
-    $('#NavBar').waypoint(function () {
+    $('.navigator').waypoint(function () {
         $('.navbar-fixed-top').fadeOut('fast');
         $('#gotop').fadeOut('fast');
     });
