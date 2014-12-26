@@ -38,6 +38,17 @@ section {
     border-bottom: 1px solid rgb(65, 79, 102);
     border-top: 1px solid rgb(65, 79, 102);
 }
+
+.nav-tabs li a {
+    text-decoration: none;
+    color: rgb(65, 79, 102);
+}
+
+.nav-tabs li a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
 .form-format
 {
     border-radius: 0;
