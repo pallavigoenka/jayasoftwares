@@ -86,6 +86,28 @@ section {
 .background{
     background-color: rgba(166, 166, 166, 0.14);
 }
+.background_footer{
+    z-index: -1;
+    text-align: center;
+    background-color: rgb(65, 79, 102);
+    bottom: 0;
+    color: rgb(217, 217, 217);
+}
+.background_footer a{
+    color: rgb(217, 217, 217);
+}
+.background_footer ul li{
+    padding: 0% 2%;
+    text-decoration: underline;
+    display: inline;
+}
+.background_footer ul{
+    padding:2%;
+    list-style: none;
+}
+.footer_no_underline li a{
+    text-decoration: none;
+}
 .logo{
     margin-top: 1%;
 }
