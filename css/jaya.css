@@ -24,6 +24,11 @@ section {
     width: 100%;
     height: 100%;
 }
+
+#map_div {
+    height: 100%;
+    margin-top: 6%;
+}
 #top div div div a:hover {
     text-decoration: none;
 }
@@ -128,6 +133,10 @@ section {
 }
 .padding_1{
     padding: 1%;
+}
+
+.padding_2 {
+    padding: 2%;
 }
 .padding_2_rightleft{
     padding-left:2%;
