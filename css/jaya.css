@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: rgba(242, 242, 242, 0.4);
     font-family: 'Montserrat', sans-serif;
-    color: darkgray;
+    color: rgb(65, 79, 102);
     height: 100%;
     text-align: left;
 }
@@ -20,6 +20,10 @@ section {
     text-decoration: none;
 }
 
+#map {
+    width: 100%;
+    height: 100%;
+}
 #top div div div a:hover {
     text-decoration: none;
 }
@@ -30,13 +34,18 @@ section {
     right: 0;
     position: fixed;
 }
+
+.navbar-default {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
 .form-format
 {
     border-radius: 0;
     border-left:0;
     border-right:0;
-    background-color: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(166, 166, 166, 0.14);
+    border-color: rgba(166, 166, 166, 0.14);
     color: white;
 }
 .img-30{
@@ -65,19 +74,23 @@ section {
     margin-right: auto;
 }
 .background{
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(166, 166, 166, 0.14);
 }
 .logo{
     margin-top: 1%;
+}
+
+.logo img {
+    width: 16%;
 }
 .blue{
     color: rgb(36, 129, 154);
 }
 .pink{
-    color: rgb(255,160,156);
+    color: rgb(255, 95, 87);
 }
 .green{
-    color: rgb(92,255,198);
+    color: rgb(0, 164, 105);
 }
 .navigator{
     margin-top: 1%;
@@ -110,12 +123,17 @@ section {
 .main_div{
     padding: 5%;
     min-height: 413px;
-    color: darkgray;
+    color: rgb(65, 79, 102);
 }
 
+#map-canvas {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
 .success_div {
     padding: 5%;
-    color: darkgray;
+    color: rgb(65, 79, 102);
     min-height: 406px;
 }
 .para_main{
