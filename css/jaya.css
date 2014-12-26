@@ -34,10 +34,9 @@ section {
     right: 0;
     position: fixed;
 }
-
 .navbar-default {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(65, 79, 102);
+    border-top: 1px solid rgb(65, 79, 102);
 }
 .form-format
 {
@@ -46,7 +45,7 @@ section {
     border-right:0;
     background-color: rgba(166, 166, 166, 0.14);
     border-color: rgba(166, 166, 166, 0.14);
-    color: white;
+    color: rgb(65, 79, 102);
 }
 .img-30{
     width: 30%;
@@ -101,6 +100,10 @@ section {
     padding-left:2%;
     padding-right:2%;
 }
+
+.margin_1_top {
+    margin-top: 1%;
+}
 .padding_5_top{
     padding-top: 5%;
 }
@@ -121,12 +124,6 @@ section {
     min-height: 413px;
     color: rgb(65, 79, 102);
 }
-
-#map-canvas {
-    height: 500px;
-    margin: 0;
-    padding: 0;
-}
 .success_div {
     padding: 5%;
     color: rgb(65, 79, 102);
@@ -138,6 +135,10 @@ section {
     font-size: 16px;
 }
 
+.padding_1_topbottom {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 .para_16 {
     font-size: 16px;
 }
@@ -152,17 +153,9 @@ section {
 #address_height{
     height: 100%;
 }
-#first{
+
+address {
     padding: 2%;
-    height: 100%;
-    vertical-align: bottom;
-    font-size: 16px;
-}
-#pad{
-    padding-top: 10px;
-}
-#pad address{
-    padding: 20px;
 }
 #growth{
     padding: 2% 2% 0 2%;
