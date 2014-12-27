@@ -103,15 +103,20 @@ section {
 }
 .background_footer ul li{
     padding: 0% 2%;
-    text-decoration: underline;
+}
+.background_footer ul li ul li{
     display: inline;
+}
+#policies li{
+    display: inline;
+    text-decoration: underline;
 }
 .background_footer ul{
     padding:2%;
     list-style: none;
 }
-.footer_no_underline li a{
-    text-decoration: none;
+.footer_no_underline{
+    text-decoration: none !important;
 }
 .logo{
     margin-top: 1%;
