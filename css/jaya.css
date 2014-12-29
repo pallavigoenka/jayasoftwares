@@ -13,6 +13,9 @@ section {
     min-height: 100%;
 }
 
+.caption {
+    margin: 0;
+}
 #top {
     min-height: 100%;
 }
@@ -20,13 +23,16 @@ section {
     text-decoration: none;
 }
 
+#AboutUs, #AboutUsSmall {
+    border-bottom: none;
+}
 #map {
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
 #map_div {
-    height: 100%;
+    height: 50%;
     margin-top: 6%;
 }
 #top div div div a:hover {
@@ -198,8 +204,15 @@ section {
 }
 .para_img{
     font-size: 14px;
-    text-align: center;
     padding: 1%;
+    vertical-align: middle;
+}
+
+.para_img_business {
+    font-size: 14px;
+    padding: 1%;
+    margin: 3% 0 0 0;
+    vertical-align: middle;
 }
 #line_height{
     line-height: 1.16em;
