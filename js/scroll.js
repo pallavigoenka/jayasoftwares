@@ -16,6 +16,10 @@ $(document).ready(function () {
         $('#gotop').fadeOut('fast');
     });
     // navigation click actions
+    var url = document.URL;
+    if (url.indexOf("about.html") == -1) {
+        $('#AboutUs li a, #AboutUsSmall li a').removeClass('scroll-link').removeAttr('data-id');
+    }
     $('.scroll-link').on('click', function (event) {
         event.preventDefault();
         var sectionID = $(this).attr("data-id");

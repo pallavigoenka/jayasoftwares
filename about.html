@@ -19,42 +19,13 @@
     <script>
         $(function () {
             $('#footer').load('footer.html');
+            $('#header').load('header.html');
         });
     </script>
 </head>
 <body>
 <section id="top" class="page-section">
-    <div class="container logo">
-        <img src="images/logo.png" alt="Jaya Softwares"/>
-    </div>
-    <div class="container navigator">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavBar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="NavBar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">SERVICES</a></li>
-                    <li class="active" id="display"><a href="#">ABOUT US</a></li>
-                    <li><a href="success.html">SUCCESS STORIES</a></li>
-                    <li><a href="career.html">CAREER</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <!--</nav>-->
-            <ul class="nav nav-tabs navbar-default navbar-right" id="AboutUs">
-                <li><a href="#">PROFILE</a></li>
-                <li><a href="#" class="scroll-link" data-id="skills">SKILL SET</a></li>
-                <li><a href="#" class="scroll-link" data-id="domain">DOMAIN EXPERTISE</a></li>
-                <li><a href="#" class="scroll-link" data-id="development">DEVELOPMENT METHODOLOGY</a></li>
-                <li><a href="#" class="scroll-link" data-id="team">OUR TEAM</a></li>
-            </ul>
-        </nav>
-    </div>
+    <div id="header"></div>
     <div id="trigger"></div>
     <div class="container">
         <h2 class="text-left">PROFILE</h2>
@@ -463,31 +434,7 @@
         </div>
     </div>
 </section>
-<nav class="container navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavBarFix">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <div class="collapse navbar-collapse" id="NavBarFix">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">SERVICES</a></li>
-            <li class="active" id="display_small"><a href="#">ABOUT US</a></li>
-            <li><a href="success.html">SUCCESS STORIES</a></li>
-            <li><a href="career.html">CAREER</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </div>
-    <ul class="nav nav-tabs navbar-default navbar-right" id="AboutUsSmall">
-        <li><a href="#">PROFILE</a></li>
-        <li><a href="#" class="scroll-link" data-id="skills">SKILL SET</a></li>
-        <li><a href="#" class="scroll-link" data-id="domain">DOMAIN EXPERTISE</a></li>
-        <li><a href="#" class="scroll-link" data-id="development">DEVELOPMENT METHODOLOGY</a></li>
-        <li><a href="#" class="scroll-link" data-id="team">OUR TEAM</a></li>
-    </ul>
-</nav>
+
 <div id="footer"></div>
 </body>
 </html>
