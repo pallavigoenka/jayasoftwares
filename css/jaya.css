@@ -107,22 +107,9 @@ section {
 .background_footer a{
     color: rgb(217, 217, 217);
 }
-.background_footer ul li{
-    padding: 0% 2%;
-}
-.background_footer ul li ul li{
-    display: inline;
-}
 #policies li{
     display: inline;
-    text-decoration: underline;
-}
-.background_footer ul{
-    padding:2%;
-    list-style: none;
-}
-.footer_no_underline{
-    text-decoration: none !important;
+    padding: 0 1%;
 }
 .logo{
     margin-top: 1%;
