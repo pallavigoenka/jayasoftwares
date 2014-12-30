@@ -176,6 +176,21 @@ section {
     color: rgb(65, 79, 102);
     min-height: 386px;
 }
+
+.img-holder {
+    min-height: 115px;
+    position: relative;
+}
+
+.img-holder .centre {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
 .para_main{
     padding: 2%;
     margin: 2%;
