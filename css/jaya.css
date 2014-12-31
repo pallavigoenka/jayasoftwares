@@ -45,16 +45,19 @@ section {
     right: 0;
     position: fixed;
 }
-.navbar-default {
-    border-bottom: 1px solid rgb(65, 79, 102);
-    border-top: 1px solid rgb(65, 79, 102);
-}
 
+.navbar-inverse {
+    background-color: rgb(65, 79, 102);
+    border: none;
+}
 .nav-tabs li a {
     text-decoration: none;
-    color: rgb(65, 79, 102);
+    color: rgb(217, 217, 217);
 }
 
+.white {
+    color: rgb(217, 217, 217) !important;
+}
 .nav-tabs li a:hover {
     text-decoration: none;
     background-color: transparent;
