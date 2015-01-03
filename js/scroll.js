@@ -20,6 +20,10 @@ $(document).ready(function () {
     if (url.indexOf("about.html") == -1) {
         $('#AboutUs li a, #AboutUsSmall li a').removeClass('scroll-link').removeAttr('data-id');
     }
+    if (url.indexOf("about.html#") != -1) {
+        $('.navbar-fixed-top').fadeIn('fast');
+        $('#gotop').fadeIn('fast');
+    }
     $('.scroll-link').on('click', function (event) {
         event.preventDefault();
         var sectionID = $(this).attr("data-id");
